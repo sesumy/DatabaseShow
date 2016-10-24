@@ -1,0 +1,7 @@
+DAO\ConnectionDAO.class
+DAO\UrunDAO.class
+Models\UserModel.class
+DAO\SatisDAO.class
+Models\UrunModel.class
+DAO\UserDAO.class
+Models\SatisModel.class
