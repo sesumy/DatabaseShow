@@ -9,7 +9,7 @@ public class ConnectionDAO {
 		Connection connectStatus = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connectStatus = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/weblab2?useUnicode=true&characterEncoding=utf-8", "root", "");
+			connectStatus = (Connection) DriverManager.getConnection("jdbc:mysql://mysql-sesumyy.jelastic.servint.net/weblab2", "root", "BnTpvtKcKx");
 			System.out.println("Baðlandý");
 		} catch (SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
